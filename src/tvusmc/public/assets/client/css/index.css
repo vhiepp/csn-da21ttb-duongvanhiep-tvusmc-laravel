@@ -1,0 +1,139 @@
+body {
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #525f7f;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+img {
+    max-width: 100%;
+}
+
+#navbar-main {
+    z-index: 9999;
+}
+
+.list-item {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    /* border-bottom: 1px solid #ccc; */
+    padding: .3rem .6rem;
+    display: flex;
+    line-height: 1.15;
+}
+
+.list-item .thumb {
+    width: calc(80px - .6rem);
+    height: calc(80px - .6rem);
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-item .thumb>img {
+    width: calc(80px - .6rem);
+    height: calc(80px - .6rem);
+    display: block;
+    object-fit: cover;
+}
+
+.list-item .content {
+    width: calc(100% - 80px);
+}
+
+.list-item .title span {
+    font-size: .9rem;
+    font-weight: bold;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.list-item::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #ccc;
+    bottom: 0;
+    left: 0;
+    right: .8rem;
+}
+
+.respon {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+}
+
+/* .table-responsive {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    overflow-x: auto;
+} */
+
+.table-responsive tr {
+    min-width: 100%;
+}
+
+.modal {
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.item {
+    height: 420px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.item-header {
+    width: 100%;
+    height: 50%;
+}
+
+.item-header_img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-body_title {
+    font-size: 1.2rem;
+    padding: .1rem .4rem;
+    margin-bottom: 0;
+    margin-top: .3rem;
+    padding-bottom: 0;
+    text-align: justify;
+}
+
+.item-body_admin {
+    padding: 0rem .4rem;
+    color: #000;
+    display: block;
+}
+
+.item-body {
+    width: 100%;
+    height: 50%;
+}
