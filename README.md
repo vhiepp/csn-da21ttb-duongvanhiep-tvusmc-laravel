@@ -19,4 +19,3 @@
   <a href="https://tvusmc.com" target="_blank"><img src="https://tvusmc.com/uploads_files/2023/09/03/16-14-SMC-300x300.png" width="200" alt="Logo TVU Social Media Club"></a>
   <br /> Logo CLB TVU Social Media
 </p>
-<hr />
