@@ -1,4 +1,4 @@
-## Tìm hiểu Laravel Freamwork và ứng dụng thiết kế website TVU Social Media Club
+## Tìm hiểu Laravel Framework và ứng dụng thiết kế website TVU Social Media Club
 ### Người thực hiện
 - Họ tên: **Dương Văn Hiệp**
 - MSSV: **110121209**
